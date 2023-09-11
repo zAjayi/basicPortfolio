@@ -1,0 +1,137 @@
+.top-container {
+  background-color: skyblue;
+  padding-top: 50px;
+}
+
+body {
+  margin: 0px;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  color: skyblue;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: skyblue;
+  color: black; 
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.mountain {
+  width: 598px;
+  height: 357px;
+  transition: width 0.5s, height 0.5s;
+}
+
+.mountain:hover {
+  width: 650px;
+  height: 380px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.job {
+  color: black;
+}
+
+.matic {
+  width: 796px;
+  height: 152px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.code-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.prototype-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #074e7a;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  color: black;
+  font-size: 5.625rem;
+  padding-top: 20px;
+  font-family: "Sacramento", cursive;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Poiret One", cursive;
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "Poiret One", cursive;
+}
+
+hr {
+  border-top: dotted skyblue 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: white;
+}
